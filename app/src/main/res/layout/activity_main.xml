@@ -13,23 +13,25 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="150dp"
-        app:srcCompat="@drawable/images" />
+        app:srcCompat="@drawable/images"
+        android:contentDescription="TODO" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:id="@+id/edEmail"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="#ffffff"
         android:ems="10"
         android:hint="@string/tEmail"
         android:importantForAutofill="no"
-        android:inputType="textWebEmailAddress"
-        android:padding="12dp"/>
+        android:inputType="textPersonName"
+        android:padding="15pt"
+        android:textColorHint="#78909C" />
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
+        android:id="@+id/edPassword"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="#ffffff"
@@ -37,10 +39,11 @@
         android:hint="@string/tPassword"
         android:importantForAutofill="no"
         android:inputType="textPassword"
-        android:padding="12dp"/>
+        android:padding="15pt"
+        android:textColorHint="#78909C" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

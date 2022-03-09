@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/LinearLayout2/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/LinearLayout2/app/src/main/res/layout/activity_hasil.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/LinearLayout2/app/src/main/res/layout/activity_kedua.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/LinearLayout2/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
