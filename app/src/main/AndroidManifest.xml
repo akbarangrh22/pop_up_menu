@@ -9,11 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LinearLayout">
-        <activity android:name=".DaftarACtivity"
+        <activity
+            android:name=".ActivityLiihatData"
             android:parentActivityName=".MainActivity"></activity>
+        android:exported="false" />
         <activity
             android:name=".ActivityKedua"
             android:label="@string/label2"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".Home_Activity"
             android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".MainActivity"

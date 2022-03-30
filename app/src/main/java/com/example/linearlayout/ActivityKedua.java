@@ -1,5 +1,6 @@
 package com.example.linearlayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -53,7 +54,7 @@ public class ActivityKedua extends AppCompatActivity {
         //Membuat kondisi jika yang dipilih adalah id mnDaftar
         if (item.getItemId() == R.id.mnDaftar) {
             //Method untuk memanggil activity "Daftar Activity"
-            Intent i = new Intent(getApplicationContext(), DaftarActivity.class);
+            Intent i = new Intent(getApplicationContext(), ActivityLiihatData.class);
             startActivity(i);
         }
         return super.onOptionsItemSelected(item);
